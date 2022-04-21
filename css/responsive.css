@@ -27,7 +27,7 @@
 }
 
 .responsive{/* it is for picture */
-    width: 100%;
+    width: 100%;/* size pic is not bigger than parent element */
     height: auto;
 }
 

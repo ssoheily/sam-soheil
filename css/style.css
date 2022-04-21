@@ -7,6 +7,18 @@ body{
     /* font-family: "name"; */
 }
 
+
+/*     <!-- ***** start header ***** --> */
+/* .menu{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/*     <!-- ***** end   header ***** --> */
+
+
+/*     <!-- ***** color ***** --> */
 /*     <!-- ***** color ***** --> */
 /*     <!-- ***** color ***** --> */
 /*     <!-- ***** color ***** --> */
@@ -39,9 +51,28 @@ body{
     /* 70 */
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;}
 
-.pad{
+ 
+/* box-feature */
+.box-fea{
     padding: 25px 10px;
-}    
+    border-radius: 8px;
+}  
+.pad{
+    padding: 10px 15px;
+}
+.p-left10{
+    padding-left: 10px;
+}  
+.p-top-bot10{
+    padding-top: 10px;
+    padding-bottom: 10PX;
+}
+.p-top50{
+    padding-top: 50PX;
+}
+.p-bot50{
+    padding-bottom: 50PX;
+}
 .footer , .header{
     height: 100px;
     background-color: gray;
