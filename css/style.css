@@ -1,0 +1,9 @@
+/* @font-face {
+    font-family: "name";
+    src: url("");
+} */
+body{
+    font-size: 18px;
+    /* font-family: "name"; */
+}
+
