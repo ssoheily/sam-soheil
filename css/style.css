@@ -7,3 +7,33 @@ body{
     /* font-family: "name"; */
 }
 
+/*     <!-- ***** color ***** --> */
+/*     <!-- ***** color ***** --> */
+/*     <!-- ***** color ***** --> */
+/*     <!-- ***** color ***** --> */
+/*     <!-- ***** color ***** --> */
+/*     <!-- ***** color ***** --> */
+/*     <!-- ***** color ***** --> */
+/*     <!-- ***** color ***** --> */
+.orange{
+    background-color:orange ;
+}
+.blue{
+    background-color:blue ;
+}
+.green{
+    background-color:green ;
+}
+.violet{
+    background-color:violet ;
+}
+.red{
+    background-color:red ;
+}
+
+.footer , .header{
+    height: 100px;
+    background-color: gray;
+    font-size: 45px;
+    text-align: center;
+}
