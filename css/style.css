@@ -9,12 +9,23 @@ body{
 
 
 /*     <!-- ***** start header ***** --> */
-/* .menu{
-    font-size: 13px;
+
+.point{
+    font-size: larger;
+    color: red;
+    padding: 0 4px;
+}
+.menu-list{
+    font-size: 17px;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+    list-style: none;
+}
+
+li{
+    padding: 20px 10px ;
+}
 /*     <!-- ***** end   header ***** --> */
 
 
