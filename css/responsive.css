@@ -22,7 +22,9 @@
     
 }
 /* every class begin with col- */
-/* [class ^= "col-"]{} */
+[class ^= "col-"]{
+    padding: 10px;
+}
 
 .responsive{/* it is for picture */
     width: 100%;
