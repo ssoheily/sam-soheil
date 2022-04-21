@@ -14,16 +14,16 @@
     padding: 0 5px;
 }
 
-[class ^= "col-"]{/* every class begin with col- */
-    float: right;
-    padding: 10px;
+.row{
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
+/* every class begin with col- */
+/* [class ^= "col-"]{} */
 
-.row::after{/* display flex class define */
-    content: "";
-    clear:both;
-    display: table;
-}
 .responsive{/* it is for picture */
     width: 100%;
     height: auto;
