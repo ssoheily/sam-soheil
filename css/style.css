@@ -91,7 +91,7 @@ body {
 /*     <!-- ***** footer ***** --> */
 /*     <!-- ***** footer part1 ***** --> */
 .footer {
-    height: 900px;
+    height: 700px;
     background-color: gray;
     color: #fff;
     text-align: center;
@@ -150,7 +150,9 @@ form button {
     color: #fff;
 }
 /*     <!-- ***** footer part3 ***** */
-
+.copyright-text{
+    height: 100%;
+}
 /*     <!-- ***** padding ***** --> */
 .pad {
     padding: 10px 15px;
@@ -165,7 +167,7 @@ form button {
     padding-bottom: 10PX;
 }
 .p-top-bot20 {
-    padding:20px 0;
+    padding:18px 0;
 }
 
 .p-top30 {
