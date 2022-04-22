@@ -4,17 +4,24 @@
 } */
 body{
     font-size: 18px;
+    /* color:white; */
     /* font-family: "name"; */
 }
 
 
 /*     <!-- ***** start header ***** --> */
-
+.footer , .header{
+    height: 400px;
+    background-color: gray;
+    font-size: 45px;
+    text-align: center;
+}
 .point{
     font-size: larger;
     color: red;
-    padding: 0 4px;
+    padding:  4px;
 }
+
 .menu-list{
     font-size: 17px;
     display: flex;
@@ -23,9 +30,14 @@ body{
     list-style: none;
 }
 
-li{
+.menu-list li{
     padding: 20px 10px ;
 }
+
+.header i{
+    font-size: 50px;
+}
+
 /*     <!-- ***** end   header ***** --> */
 
 
@@ -78,15 +90,13 @@ li{
     padding-top: 10px;
     padding-bottom: 10PX;
 }
+
+.p-top30{
+    padding-top: 30PX;
+}
 .p-top50{
     padding-top: 50PX;
 }
 .p-bot50{
     padding-bottom: 50PX;
-}
-.footer , .header{
-    height: 100px;
-    background-color: gray;
-    font-size: 45px;
-    text-align: center;
 }
