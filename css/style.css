@@ -2,7 +2,7 @@
     font-family: "name";
     src: url("");
 } */
-body{
+body {
     font-size: 18px;
     /* color:white; */
     /* font-family: "name"; */
@@ -10,19 +10,20 @@ body{
 
 
 /*     <!-- ***** start header ***** --> */
-.footer , .header{
+.header {
     height: 400px;
     background-color: gray;
     font-size: 45px;
     text-align: center;
 }
-.point{
+
+.point {
     font-size: larger;
     color: red;
-    padding:  4px;
+    padding: 4px;
 }
 
-.menu-list{
+.menu-list {
     font-size: 17px;
     display: flex;
     justify-content: center;
@@ -30,11 +31,11 @@ body{
     list-style: none;
 }
 
-.menu-list li{
-    padding: 20px 10px ;
+.menu-list li {
+    padding: 20px 10px;
 }
 
-.header i{
+.header i {
     font-size: 50px;
 }
 
@@ -49,54 +50,121 @@ body{
 /*     <!-- ***** color ***** --> */
 /*     <!-- ***** color ***** --> */
 /*     <!-- ***** color ***** --> */
-.orange{
-    background-color:orange ;
+.orange {
+    background-color: orange;
 }
-.blue{
-    background-color:blue ;
+
+.blue {
+    background-color: blue;
 }
-.green{
-    background-color:green ;
+
+.green {
+    background-color: green;
 }
-.violet{
-    background-color:violet ;
+
+.violet {
+    background-color: violet;
 }
-.red{
-    background-color:red ;
+
+.red {
+    background-color: red;
 }
 
 /*     <!-- ***** box shadow ***** --> */
-.box-shadow-1{
+.box-shadow-1 {
     /* 32 */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.box-shadow-2{
-    /* 70 */
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;}
 
- 
+.box-shadow-2 {
+    /* 70 */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+
 /* box-feature */
-.box-fea{
+.box-fea {
     padding: 25px 10px;
     border-radius: 8px;
-}  
-.pad{
+}
+
+/*     <!-- ***** footer ***** --> */
+.footer {
+    height: 900px;
+    background-color: gray;
+    font-size: 45px;
+    text-align: center;
+}
+
+.titleEmail {
+    width: 50%;
+    height:100px
+}
+
+.offset-lg-2 {
+    margin-left: 40%;
+}
+
+
+.titleEmail p {
+    padding-top: 6px;
+    font-weight: bolder;
+    margin: 0 5% 0 5%;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+form .email {
+    font-size: 15px;
+    color: #fff;
+    outline: none;
+    height: 46px;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+
+form button {
+    height: 46px;
+    border-radius: 23px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    transition: all .5s;
+}
+
+/*     <!-- ***** padding ***** --> */
+.pad {
     padding: 10px 15px;
 }
-.p-left10{
+
+.p-left10 {
     padding-left: 10px;
-}  
-.p-top-bot10{
+}
+
+.p-top-bot10 {
     padding-top: 10px;
     padding-bottom: 10PX;
 }
 
-.p-top30{
+.p-top30 {
     padding-top: 30PX;
 }
-.p-top50{
+
+.p-top50 {
     padding-top: 50PX;
 }
-.p-bot50{
+
+.p-bot50 {
+    padding-bottom: 50PX;
+}
+
+.p-bot10 {
     padding-bottom: 50PX;
 }
