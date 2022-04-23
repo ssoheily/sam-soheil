@@ -15,31 +15,6 @@ window.addEventListener("scroll",()=>{
 })
 /* <!-- ***** Scroll End ***** --> */
 
-/* <!-- ***** Switch Start ***** --> */
-
-const switchElement = document.querySelector('.switch')
-switchElement.addEventListener('click', function () {
-  
-  // Hibnt: Add 'dark' class to body :))
-  $.body.classList.toggle("dark");
-  if($.body.className.includes("dark")){
-    localStorage.setItem("thema","dark");
-  }
-  else{
-    localStorage.setItem("thema","light");
-  }
-  
-})
-
-window.onload=function checkThema(){
-  let check= localStorage.getItem("thema");
-  if(check === "dark"){
-    $.body.classList.add("dark")
-  }
-}
-
-/* <!-- ***** Switch End ***** --> */
-
 /* <!-- ***** Clock Start ***** --> */
 let hour = document.querySelector("#hour");
 let minute = document.querySelector("#minute");
@@ -65,4 +40,30 @@ setInterval(function () {
 }, 1000);
 
 /* <!-- ***** Clock End ***** --> */
+
+/* <!-- ***** Switch Start ***** --> */
+
+const switchElement = document.querySelector('.switch')
+switchElement.addEventListener('click', function () {
+  
+  // Hibnt: Add 'dark' class to body :))
+  $.body.classList.toggle("dark");
+  if($.body.className.includes("dark")){
+    localStorage.setItem("thema","dark");
+  }
+  else{
+    localStorage.setItem("thema","light");
+  }
+  
+})
+
+window.onload=function checkThema(){
+  let check= localStorage.getItem("thema");
+  if(check === "dark"){
+    $.body.classList.add("dark")
+  }
+}
+
+/* <!-- ***** Switch End ***** --> */
+
 

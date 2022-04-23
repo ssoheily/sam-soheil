@@ -8,11 +8,58 @@ body {
     /* font-family: "name"; */
 }
 
-#scroll{
+#scroll {
     height: 10px;
-    background-color: rgb(61, 60, 60,0.6);
+    background-color: rgb(61, 60, 60, 0.6);
     position: fixed;
-    }
+}
+
+.headerElem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+/*     <!-- ***** Start Clock ***** --> */
+.clock {
+    width: 150px;
+    height: 50px;
+    padding: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+    /* background-color: rgb(18, 17, 18); */
+}
+
+.clock div {
+    position: relative;
+    background-color: #000;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    letter-spacing: 3px;
+
+}
+
+.clock span {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #FFF;
+}
+
+/*     <!-- ***** end Clock ***** --> */
+
+/*     <!-- ***** start RESOLOTION ***** --> */
+/*     <!-- ***** end   RESOLOTION ***** --> */
 
 /*     <!-- ***** start switch ***** --> */
 .switch {
@@ -21,9 +68,10 @@ body {
     border-radius: 20px;
     background-color: rgb(39, 38, 38);
     position: relative;
-    padding:10px 0 0 10px ;
-  }
-  .flicker {
+    padding: 10px 0 0 10px;
+}
+
+.flicker {
     width: 30px;
     height: 30px;
     border-radius: 15px;
@@ -33,14 +81,16 @@ body {
     left: 5px;
     transition: 0.3s;
     box-shadow: inset 4px 4px 4px rgb(255, 255, 255),
-      inset -4px -4px 4px rgb(195 193 198 / 90%);
-  }
-  .dark {
-    background-color: rgb(57, 57, 57);
+        inset -4px -4px 4px rgb(195 193 198 / 90%);
+}
+
+.dark {
+    /* background-color: rgb(57, 57, 57); */
+    background-color: rgb(3, 22, 84, 0.5);
     transition: 0.3s;
-  }
-  
-  .moon {
+}
+
+.moon {
     width: 20px;
     height: 20px;
     border-radius: 10px;
@@ -48,46 +98,14 @@ body {
     position: absolute;
     top: 5px;
     left: 45px;
-  }
-  /* chnage position flicker in switch  */
+}
+
+/* chnage position flicker in switch  */
 .dark .flicker {
     transform: translateX(40px);
-  }
+}
 
 /*     <!-- ***** end switch ***** --> */
-
-/*     <!-- ***** Start Clock ***** --> */
-.clock{
-    width: 150px;
-    height: 50px;   
-    padding: 10px 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:10px 0 0 0 ;
-
-}
-.clock div{
-    position: relative;
-    background-color: #000;
-    height: 100%;
-    width: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Open Sans',sans-serif;
-    font-size: 20px;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-    letter-spacing: 3px;
-}
-.clock span{
-    font-weight: bolder;
-    font-size: 20px;
-    color: #000;
-}
-/*     <!-- ***** end Clock ***** --> */
 
 
 /*     <!-- ***** start header ***** --> */
@@ -96,7 +114,7 @@ body {
     background-color: gray;
     font-size: 45px;
     text-align: center;
-   display: flex;
+    display: flex;
 
 }
 
@@ -104,7 +122,7 @@ body {
     font-size: larger;
     color: red;
     padding: 4px;
-   
+
 }
 
 .menu-list {
@@ -118,11 +136,12 @@ body {
 .menu-list li {
     padding: 10px 10px;
 }
+
 .menu-list li:hover {
-    color:#fff;
+    color: #fff;
     font-weight: bold;
     /* background-color: #000; */
-    
+
 }
 
 .header i {
@@ -205,7 +224,7 @@ body {
 
 .titleEmail {
     width: 50%;
-    height:100px;
+    height: 100px;
     font-size: 45px;
 }
 
@@ -246,24 +265,28 @@ form button {
     width: 100%;
     transition: all .5s;
 }
+
 /*     <!-- ***** footer part2 ***** */
-.part2 .contact h4{
+.part2 .contact h4 {
     text-decoration: none;
     font-size: 25px;
 }
-.part2 .contact p a{
+
+.part2 .contact p a {
     text-decoration: none;
     color: #fff;
 }
 
-.logo img{
+.logo img {
     width: 100px;
     height: 110px;
 }
+
 /*     <!-- ***** footer part3 ***** */
-.copyright-text{
+.copyright-text {
     height: 100%;
 }
+
 /*     <!-- ***** padding ***** --> */
 .pad {
     padding: 10px 15px;
@@ -277,13 +300,15 @@ form button {
     padding-top: 10px;
     padding-bottom: 10PX;
 }
+
 .p-top-bot20 {
-    padding:18px 0;
+    padding: 18px 0;
 }
 
 .p-top20 {
     padding-top: 20PX;
 }
+
 .p-top30 {
     padding-top: 30PX;
 }
