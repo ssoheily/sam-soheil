@@ -176,6 +176,8 @@ body {
 .menu-list li:hover {
     color: #000;
     font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(251, 81, 81) ;
     /* background-color: #000; */
 
 }
