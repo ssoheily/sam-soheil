@@ -14,3 +14,28 @@ window.addEventListener("scroll",()=>{
     customScroll.style.width=scrollPerzentRounded+ "%"; 
 })
 /* <!-- ***** Scroll End ***** --> */
+
+/* <!-- ***** Switch Start ***** --> */
+
+const switchElement = document.querySelector('.switch')
+switchElement.addEventListener('click', function () {
+  
+  // Hibnt: Add 'dark' class to body :))
+  $.body.classList.toggle("dark");
+  if($.body.className.includes("dark")){
+    localStorage.setItem("thema","dark");
+  }
+  else{
+    localStorage.setItem("thema","light");
+  }
+  
+})
+
+window.onload=function checkThema(){
+  let check= localStorage.getItem("thema");
+  if(check === "dark"){
+    $.body.classList.add("dark")
+  }
+}
+
+/* <!-- ***** Switch End ***** --> */
