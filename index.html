@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>firstpage</title>
   </head>
-  <body>
+  <body >
     <div id="scroll"></div>
     <header class="headerElem">
         <!-- ***** Clock Start ***** -->
@@ -28,6 +28,13 @@
         </div>
         <!-- ***** Clock End ***** -->
         <!-- ***** resolotion Start ***** -->
+        <div class="resoltion">
+            <div class="brightness-box">
+                <i class="far fa-sun"></i>
+                <input type="range" id="range" min="10" max="100" value="100">
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
         <!-- ***** resolotion End ***** -->
         <!-- ***** Switch Start ***** -->
       <div class="switch">
@@ -43,7 +50,7 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
-    <div class="container-fluid header">
+    <div class="container-fluid header resoltionHEAD" >
       <div class="container">
         <div class="menu">
           <h6
@@ -71,8 +78,8 @@
     <!-- ***** Row Area Start ***** -->
 
     <!-- ***** Row-1 with 3coloun Start ***** -->
-    <div class="container">
-      <h1 class="p-left10 p-top50">about course</h1>
+    <div class="container section1 ">
+      <h1 class="p-left10 p-top50 p-bot20  ">about course</h1>
       <p class="p-left10 p-top-bot10">Lorem ipsum dolor sit.</p>
       <div class="row">
         <div class="col-xs-12 col-md-6 col-lg-4">
@@ -97,7 +104,7 @@
     </div>
     <!-- ***** Row-1 with 3coloun End ***** -->
     <!-- ***** Row2 with 4coloun Start ***** -->
-    <div class="container">
+    <div class="container section2">
       <h2 class="p-left10 p-top50">why ....</h2>
       <p class="p-left10 p-top-bot10">
         Lorem ipsum dolor sit amet consectetur.
@@ -141,9 +148,9 @@
       <div class="container">
         <div class="part1">
           <!-- here size row muss responive??????  -->
-          <div class="row p-top50 p-bot50 blue" style="height: 200px">
-            <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6 offset-lg-2">
-              <div class="titleEmail">
+          <div class="row  blue" style="height: 75px; justify-content: center;">
+            <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6">
+              <div class="titleEmail ">
                 <p>Join Our Mailing List To Receive The News & Latest Trends</p>
               </div>
             </div>

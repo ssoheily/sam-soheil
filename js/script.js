@@ -41,6 +41,18 @@ setInterval(function () {
 
 /* <!-- ***** Clock End ***** --> */
 
+/* <!-- ***** Resolotion Start ***** --> */
+let container= $.querySelector(".resoltionHEAD");
+let inputRange= $.querySelector("#range");
+
+function rangeChanger(event){
+    let number=event.target.value;
+    container.style.filter=`brightness(${number}%)`;
+}
+/* CHANGE KEY */
+inputRange.addEventListener("change",rangeChanger);
+/* <!-- ***** Resolotion End ***** --> */
+
 /* <!-- ***** Switch Start ***** --> */
 
 const switchElement = document.querySelector('.switch')
