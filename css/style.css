@@ -12,11 +12,9 @@ body {
     height: 10px;
     background-color: rgb(61, 60, 60,0.6);
     position: fixed;
-    /* width: 80%; */
     }
+
 /*     <!-- ***** start switch ***** --> */
-
-
 .switch {
     width: 80px;
     height: 40px;
@@ -55,12 +53,46 @@ body {
 .dark .flicker {
     transform: translateX(40px);
   }
+
 /*     <!-- ***** end switch ***** --> */
+
+/*     <!-- ***** Start Clock ***** --> */
+.clock{
+    width: 150px;
+    height: 50px;   
+    padding: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 0 0 0 ;
+
+}
+.clock div{
+    position: relative;
+    background-color: #000;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    letter-spacing: 3px;
+}
+.clock span{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #000;
+}
+/*     <!-- ***** end Clock ***** --> */
 
 
 /*     <!-- ***** start header ***** --> */
 .header {
-    height: 400px;
+    height: 420px;
     background-color: gray;
     font-size: 45px;
     text-align: center;
@@ -72,6 +104,7 @@ body {
     font-size: larger;
     color: red;
     padding: 4px;
+   
 }
 
 .menu-list {
@@ -83,7 +116,13 @@ body {
 }
 
 .menu-list li {
-    padding: 20px 10px;
+    padding: 10px 10px;
+}
+.menu-list li:hover {
+    color:#fff;
+    font-weight: bold;
+    /* background-color: #000; */
+    
 }
 
 .header i {
@@ -93,9 +132,6 @@ body {
 /*     <!-- ***** end   header ***** --> */
 
 
-/*     <!-- ***** color ***** --> */
-/*     <!-- ***** color ***** --> */
-/*     <!-- ***** color ***** --> */
 /*     <!-- ***** color ***** --> */
 /*     <!-- ***** color ***** --> */
 /*     <!-- ***** color ***** --> */
@@ -245,6 +281,9 @@ form button {
     padding:18px 0;
 }
 
+.p-top20 {
+    padding-top: 20PX;
+}
 .p-top30 {
     padding-top: 30PX;
 }

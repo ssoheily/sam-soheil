@@ -18,13 +18,30 @@
   <body>
     <div id="scroll"></div>
     <!-- ***** Switch Start ***** -->
-    <header style="display: flex; justify-content: flex-end; padding: 5px">
+    <header
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+      "
+    >
+       <!-- ***** Clock Start ***** -->
+       <div class="clock">
+        <div id="hour">00</div>
+        <span>:</span>
+        <div id="minute">00</div>
+        <span>:</span>
+        <div id="seconds">00</div>
+      </div>
+      <!-- ***** Clock End ***** -->
       <div class="switch">
         <div class="flicker"></div>
         <div class="moon"></div>
+        <!-- ***** Switch End ***** -->
       </div>
+   
     </header>
-    <!-- ***** Switch End ***** -->
 
     <!-- ***** Preloader Start ***** -->
 
@@ -34,7 +51,12 @@
     <div class="container-fluid header">
       <div class="container">
         <div class="menu">
-          <h6 class="p-top30">sam<span class="point">.</span>soheil</h6>
+          <h6
+            class="p-top20 p-bot10"
+            style="font-style: italic; font-size: larger"
+          >
+            sam<span class="point">.</span>soheil
+          </h6>
           <ul class="menu-list">
             <li>HOME</li>
             <li>PRODUCT</li>
