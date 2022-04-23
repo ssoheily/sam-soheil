@@ -88,6 +88,25 @@ body {
     border-radius: 8px;
 }
 
+/*     <!-- ***** Row3  Start ***** --> */
+.bg-worker {
+    height: 800px;
+    background-image: url("../images/atyourservice.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.glass {
+    height: 300px;
+    text-align: center;
+}
+
+.glass h2 {
+    margin-top: 130px;
+    color: white;
+    text-transform: uppercase;
+}
+
 /*     <!-- ***** footer ***** --> */
 /*     <!-- ***** footer part1 ***** --> */
 .footer {
@@ -148,6 +167,11 @@ form button {
 .part2 .contact p a{
     text-decoration: none;
     color: #fff;
+}
+
+.logo img{
+    width: 100px;
+    height: 110px;
 }
 /*     <!-- ***** footer part3 ***** */
 .copyright-text{
