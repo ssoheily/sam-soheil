@@ -113,3 +113,20 @@ iziToast.show({
     image:"./images/3x4foto.png",
 });
 /* <!-- ***** Toast lib End ***** --> */
+
+
+/* <!-- ***** TIPPY lib START    ***** --> */
+
+   // With the above scripts loaded, you can call `tippy()` with a CSS
+      // selector and a `content` prop:
+      tippy('#subscribEmail', {
+        content: '<i>Subscribe now Please!</i>',//i ,is here italic//it is html form render.muss allow htlm true
+        allowHTML:true,
+        
+      });
+      tippy('#games', {
+        content: 'What would you like?!',
+        color:"blue"
+      });
+/* <!-- ***** TIPPY lib End ***** --> */
+
