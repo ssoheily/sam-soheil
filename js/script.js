@@ -79,3 +79,20 @@ window.onload=function checkThema(){
 /* <!-- ***** Switch End ***** --> */
 
 
+/* <!-- ***** Type Writer Start ***** --> */
+var h1Elem = document.getElementById('typeWriter');
+
+var h1Elemtypewriter = new Typewriter(h1Elem, {
+    loop: true
+});
+// no symicolon
+h1Elemtypewriter.typeString('Hello Everyone!')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('The Best Design')
+    .pauseFor(2500)
+    .deleteChars(7)
+    .typeString('<strong> IDEA!</strong>')
+    .pauseFor(2500)
+    .start();
+/* <!-- ***** Type Writer End ***** --> */
