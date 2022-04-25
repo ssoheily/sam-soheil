@@ -20,6 +20,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 5px;
+   
 }
 
 /*     <!-- ***** Start Clock ***** --> */
@@ -195,7 +196,10 @@ body {
 /*     <!-- ***** color ***** --> */
 /*     <!-- ***** color ***** --> */
 .orange {
-    background-color: orange;
+    /* background-color: orange; */
+    background-color: #FAD961;
+    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+
 }
 
 .blue {
@@ -265,23 +269,8 @@ body {
 /*     <!-- ***** Row2  End ***** --> */
 
 /*     <!-- ***** Row3  Start ***** --> */
-/* .bg-worker {
-    height: 800px;
-    background-image: url("../images/atyourservice.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+/*     <!-- ***** Row3  End ***** --> */
 
-.glass {
-    height: 300px;
-    text-align: center;
-}
-
-.glass h2 {
-    margin-top: 130px;
-    color: white;
-    text-transform: uppercase;
-} */
 
 /*     <!-- ***** footer  Start***** --> */
 /*     <!-- ***** footer part1 ***** --> */

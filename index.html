@@ -11,12 +11,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><!-- aos -->
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>firstpage</title>
   </head>
   <body >
     <div id="scroll"></div>
+    <div id="particles-js"></div>
     <header class="headerElem">
         <!-- ***** Clock Start ***** -->
         <div class="clock">
@@ -97,6 +99,7 @@
         <div class="col-xs-12 col-md-6 col-lg-4">
           <div class="box-shadow-1 box-fea">
             <img class="responsive" src="images/visit-3.png" alt="" />
+            <h4>GAME3</h4>
             <p class="pad">Lorem, ipsum dolor.</p>
           </div>
         </div>
@@ -110,28 +113,28 @@
         Lorem ipsum dolor sit amet consectetur.
       </p>
       <div class="row p-bot50 box-pos">
-        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3" style="position: relative;">
+        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3 " style="position: relative;" data-aos="fade-up-right" >
           <div class="box-shadow-2 box-fea " >
             <img class="responsive" src="images/ab-3.png" alt="">
             <h4>update</h4>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3 " id="po-tp" style="position: relative;">
+        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3 " id="po-tp" style="position: relative;" data-aos="flip-up">
           <div class="box-shadow-2 box-fea">
             <img class="responsive" src="images/ab-2.png" alt="" >
             <h4>update</h4>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3" style="position: relative;">
+        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3" style="position: relative;" data-aos="flip-down">
           <div class="box-shadow-2 box-fea">
             <img class="responsive" src="images/ab-3.png" alt="">
             <h4>update</h4>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3" id="po-tp" style="position: relative; ">
+        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3" id="po-tp" style="position: relative;" data-aos="fade-up-left">
           <div class="box-shadow-2 box-fea">
             <img class="responsive" src="images/ab-4.png" alt="">
             <h4>update</h4>
@@ -236,6 +239,11 @@
     <!-- ***** Footer Area End ***** -->
     <!-- <P> I am a Software Developer and Content Creator on WEB-PAGE. Born in
         IRAN and raised in the TEHRAN City .</P> -->
-    <script src="js/script.js"></script>
+  
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script><!-- aos -->
+        <script>
+          AOS.init();
+        </script>
+        <script src="js/script.js"></script>
   </body>
 </html>
