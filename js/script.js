@@ -51,6 +51,11 @@ function rangeChanger(event){
 }
 /* CHANGE KEY */
 inputRange.addEventListener("change",rangeChanger);
+/* reset value input-rang */
+window.addEventListener("load",()=>{
+    let rangInput=$.querySelector(".rang");
+    rangInput.value=100;    
+});
 /* <!-- ***** Resolotion End ***** --> */
 
 /* <!-- ***** Switch Start ***** --> */
@@ -96,3 +101,15 @@ h1Elemtypewriter.typeString('Hello Everyone!')
     .pauseFor(2500)
     .start();
 /* <!-- ***** Type Writer End ***** --> */
+
+/* <!-- ***** Toast lib Start ***** --> */
+iziToast.show({
+    title: 'Hey',
+    message: 'What can i for you ?',
+    theme:"dark", //light
+    position:"bottomCenter",
+
+    timeout:10000,
+    image:"./images/3x4foto.png",
+});
+/* <!-- ***** Toast lib End ***** --> */
