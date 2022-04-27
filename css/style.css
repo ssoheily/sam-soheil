@@ -281,14 +281,11 @@ body {
 /*     <!-- ***** footer part1 ***** --> */
 .footer {
     height: 100%;
-    background-color: gray;
     color: #fff;
     text-align: center;
     overflow: hidden;
 }
-.part1{
-    
-}
+
 .titleEmail {
     font-size: 1.6rem;
     font-weight: normal;
@@ -316,6 +313,8 @@ form .email {
     border-bottom: 1px solid #fff;
     width: 100%;
 }
+
+
 
 form button {
     height: 46px;
