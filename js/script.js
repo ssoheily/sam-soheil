@@ -107,7 +107,7 @@ iziToast.show({
     title: 'Hey',
     message: 'What can i for you ?',
     theme:"dark", //light
-    position:"bottomCenter",
+    position:"bottomRight",
 
     timeout:10000,
     image:"./images/3x4foto.png",
@@ -120,7 +120,7 @@ iziToast.show({
    // With the above scripts loaded, you can call `tippy()` with a CSS
       // selector and a `content` prop:
       tippy('#subscribEmail', {
-        content: '<i>Subscribe now Please!</i>',//i ,is here italic//it is html form render.muss allow htlm true
+        content: '<i>Subscribe now Please!</i>',//i ,is here italic//it is html form render. allow htlm true
         allowHTML:true,
         
       });

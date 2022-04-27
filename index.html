@@ -7,53 +7,61 @@
 
     <!-- Additional CSS Files -->
 
+    <!-- Add icon library  cdn fontawesomw icon-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- cdn fontawesomw icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/iziToast.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><!-- aos -->
+    
+    <link rel="stylesheet" href="css/iziToast.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- aos -->
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>firstpage</title>
   </head>
-  <body >
+  <body>
     <div id="scroll"></div>
     <header class="headerElem">
-        <!-- ***** Clock Start ***** -->
-        <div class="clock">
-            <div id="hour">00</div>
-            <span>:</span>
-            <div id="minute">00</div>
-            <span>:</span>
-            <div id="seconds">00</div>
+      <!-- ***** Clock Start ***** -->
+      <div class="clock">
+        <div id="hour">00</div>
+        <span>:</span>
+        <div id="minute">00</div>
+        <span>:</span>
+        <div id="seconds">00</div>
+      </div>
+      <!-- ***** Clock End ***** -->
+      <!-- ***** resolotion Start ***** -->
+      <div class="resoltion">
+        <div class="brightness-box">
+          <i class="far fa-sun"></i>
+          <input
+            class="rang"
+            type="range"
+            id="range"
+            min="10"
+            max="100"
+            value="100"
+          />
+          <i class="fas fa-sun"></i>
         </div>
-        <!-- ***** Clock End ***** -->
-        <!-- ***** resolotion Start ***** -->
-        <div class="resoltion">
-            <div class="brightness-box">
-                <i class="far fa-sun"></i>
-                <input class="rang" type="range" id="range" min="10" max="100" value="100">
-                <i class="fas fa-sun"></i>
-            </div>
-        </div>
-        <!-- ***** resolotion End ***** -->
-        <!-- ***** Switch Start ***** -->
+      </div>
+      <!-- ***** resolotion End ***** -->
+      <!-- ***** Switch Start ***** -->
       <div class="switch">
         <div class="flicker"></div>
         <div class="moon"></div>
         <!-- ***** Switch End ***** -->
       </div>
-   
     </header>
-
     <!-- ***** Preloader Start ***** -->
 
     <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
-    <div class="container-fluid header resoltionHEAD " style="clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);" >
+    <div
+      class="container-fluid header resoltionHEAD"
+      style="clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%)"
+    >
       <div class="container">
         <div class="menu">
           <h6
@@ -77,17 +85,23 @@
     </div>
 
     <!-- ***** Header Area End ***** -->
-    <div id="particles-js" style="height: 100px;"></div> <!-- particle.js //star -->
+    <div id="particles-js" style="height: 100px"></div>
+    <!-- particle.js //star -->
     <!-- ***** Row Area Start ***** -->
 
     <!-- ***** Row-1 with 3coloun Start ***** -->
-    <div class="container section1 ">
-      <h1 class="p-left10 p-top50 p-bot20" >about course</h1>
+    <div class="container section1">
+      <h1 class="p-left10 p-top50 p-bot20">about course</h1>
       <p class="p-left10 p-top-bot10">Lorem ipsum dolor sit.</p>
       <div class="row">
         <div class="col-xs-12 col-md-6 col-lg-4">
           <div class="box-shadow-1 box-fea">
-            <img class="responsive" src="images/visit-1.png" alt="" id="games"/>
+            <img
+              class="responsive"
+              src="images/visit-1.png"
+              alt=""
+              id="games"
+            />
             <p class="pad">Lorem, ipsum dolor.</p>
           </div>
         </div>
@@ -114,30 +128,48 @@
         Lorem ipsum dolor sit amet consectetur.
       </p>
       <div class="row p-bot50 box-pos">
-        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3 " style="position: relative;" data-aos="fade-up-right" >
-          <div class="box-shadow-2 box-fea " >
-            <img class="responsive" src="images/ab-3.png" alt="">
+        <div
+          class="col-xs-12 col-md-6 col-lg-3 col-xl-3"
+          style="position: relative"
+          data-aos="fade-up-right"
+        >
+          <div class="box-shadow-2 box-fea">
+            <img class="responsive" src="images/ab-3.png" alt="" />
             <h4>update</h4>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3 " id="po-tp" style="position: relative;" data-aos="flip-up">
+        <div
+          class="col-xs-12 col-md-6 col-lg-3 col-xl-3"
+          id="po-tp"
+          style="position: relative"
+          data-aos="flip-up"
+        >
           <div class="box-shadow-2 box-fea">
-            <img class="responsive" src="images/ab-2.png" alt="" >
+            <img class="responsive" src="images/ab-2.png" alt="" />
             <h4>update</h4>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3" style="position: relative;" data-aos="flip-down">
+        <div
+          class="col-xs-12 col-md-6 col-lg-3 col-xl-3"
+          style="position: relative"
+          data-aos="flip-down"
+        >
           <div class="box-shadow-2 box-fea">
-            <img class="responsive" src="images/ab-3.png" alt="">
+            <img class="responsive" src="images/ab-3.png" alt="" />
             <h4>update</h4>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 col-lg-3 col-xl-3" id="po-tp" style="position: relative;" data-aos="fade-up-left">
+        <div
+          class="col-xs-12 col-md-6 col-lg-3 col-xl-3"
+          id="po-tp"
+          style="position: relative"
+          data-aos="fade-up-left"
+        >
           <div class="box-shadow-2 box-fea">
-            <img class="responsive" src="images/ab-4.png" alt="">
+            <img class="responsive" src="images/ab-4.png" alt="" />
             <h4>update</h4>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
@@ -152,13 +184,13 @@
     <!-- ***** Row Area End ***** -->
 
     <!-- ***** Footer Area Start ***** -->
-    <div class="container-fluid footer" >
+    <div class="container-fluid footer">
       <div class="container">
         <div class="part1">
           <!-- here size row muss responive??????  -->
-          <div class="row  blue" style="height: 75px; justify-content: center;">
+          <div class="row" style="height: 75px; justify-content: center">
             <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6">
-              <div class="titleEmail ">
+              <div class="titleEmail">
                 <p>Join Our Mailing List To Receive The News & Latest Trends</p>
               </div>
             </div>
@@ -228,28 +260,43 @@
             </div>
           </div>
         </div>
-        <div class="part3 p-top20 red">
+        <div class="part3 p-top20 ">
           <div class="copyright-text p-top-bot10">
             <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.</p>
             <br />Design
             <a href="#" target="_blank" title="#">TemplateMo</a>
           </div>
         </div>
+        <div class="part4 p-top20  "><ul class="social-icon">
+          <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"> <i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+         
+        </ul></div>
       </div>
     </div>
     <!-- ***** Footer Area End ***** -->
     <!-- <P> I am a Software Developer and Content Creator on WEB-PAGE. Born in
         IRAN and raised in the TEHRAN City .</P> -->
-        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script> <!-- tipyy(1) -->
-        <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>      <!-- tipyy(2) -->
-        <script src="js/iziToast.min.js"></script>
-        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script><!-- Type Writer cdn -->
-        <script src="js/particles.js"></script> <!-- particle.js //star -->
-        <script src="js/app.js"></script><!-- active or intial witj app.js  --> <!-- particle.js //star -->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script><!-- aos -->
-        <script>
-          AOS.init();
-        </script>
-        <script src="js/script.js"></script>
+  
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <!-- tipyy(1) -->
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <!-- tipyy(2) -->
+    <script src="js/iziToast.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!-- Type Writer cdn -->
+    <script src="js/particles.js"></script>
+    <!-- particle.js //star -->
+    <script src="js/app.js"></script>
+    <!-- active or intial witj app.js  -->
+    <!-- particle.js //star -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- aos -->
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>

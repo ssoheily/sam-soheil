@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /* @font-face {
     font-family: "name";
     src: url("");
@@ -275,26 +280,19 @@ body {
 /*     <!-- ***** footer  Start***** --> */
 /*     <!-- ***** footer part1 ***** --> */
 .footer {
-    /* height: 700px; */
     height: 100%;
     background-color: gray;
     color: #fff;
     text-align: center;
     overflow: hidden;
 }
-
+.part1{
+    
+}
 .titleEmail {
-    /* width: 50%;
-    height: 100px;
-    font-size: 45px; */
     font-size: 1.6rem;
     font-weight: normal;
 }
-
-/* .offset-lg-2 {
-    margin-left: 40%;
-} */
-
 
 .titleEmail p {
     padding-top: 6px;
@@ -350,7 +348,19 @@ form button {
     height: 100%;
 }
 
-/*     <!-- ***** footer End ***** */
+/*     <!-- ***** footer  part3 End ***** */
+/*     <!-- ***** footer part4 ***** */
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon  li{
+    padding: 4px 10px 10px;
+   list-style-type: none;
+}
+
+/*     <!-- *****  part3 footer4 End ***** */
 
 /*     <!-- ***** padding ***** --> */
 .pad {
