@@ -109,7 +109,7 @@ iziToast.show({
     theme:"dark", //light
     position:"bottomRight",
 
-    timeout:10000,
+    timeout:1000,
     image:"./images/3x4foto.png",
 });
 /* <!-- ***** Toast lib End ***** --> */
@@ -130,3 +130,45 @@ iziToast.show({
       });
 /* <!-- ***** TIPPY lib End ***** --> */
 
+
+/* <!-- ***** secton3-Accorsion Start ***** --> */
+//this is the button
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    //when one of the buttons are clicked run this function
+  acc[i].onclick = function() {
+    //variables
+    var panel = this.nextElementSibling;
+    var panelElem = document.getElementsByClassName("panel");
+    var accordionActive = document.getElementsByClassName("accordion active");
+    /* maxHeight =  height form content + overflow-content */
+    /*if pannel is already open - minimize*/
+    if (panel.style.maxHeight){
+        //minifies current pannel if already open
+        panel.style.maxHeight = null;
+        //removes the 'active' class as toggle didnt work on browsers minus chrome
+        this.classList.remove("active");
+    } else { //pannel isnt open...
+        //goes through the buttons and removes the 'active' css (+ and -)
+        for (var ii = 0; ii < accordionActive.length; ii++) {
+            accordionActive[ii].classList.remove("active");
+        }
+        //Goes through and removes 'activ' from the css, also minifies any 'panels' that might be open
+        for (var iii = 0; iii < panelElem.length; iii++) {
+          this.classList.remove("active");
+          panelElem[iii].style.maxHeight = null;
+        }
+      //opens the specified pannel
+      panel.style.maxHeight = panel.scrollHeight + "px";
+      //adds the 'active' addition to the css.
+      this.classList.add("active");
+    } 
+  }//closing to the acc onclick function
+}//closing to the for loop.
+
+/* <!-- ***** secton3-Accorsion End ***** --> */
+
+
+	

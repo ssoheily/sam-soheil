@@ -274,6 +274,51 @@ body {
 /*     <!-- ***** Row2  End ***** --> */
 
 /*     <!-- ***** Row3  Start ***** --> */
+.section3{
+    /* height: 400px; */
+    padding: 20px;
+}
+.accordion{
+    background-color: #eee;
+    color:#444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border:none;
+    text-align: left;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.active , .accordion:hover{
+    background-color: #ccc;
+}
+.accordion:after{
+    content: "\00276F";/*  sign :  >  */
+    transform: rotate(90deg);
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    transition: all 0.5s;
+
+}
+
+.active:after{
+    content: "\00276F";/*  sign :  >  */
+    transform: rotate(270deg);
+
+}
+.panel{
+    padding: 0 18px;
+    background-color: #aaa;
+    max-height: 0;/* dont need height an begin */
+    overflow: hidden; 
+    transition: max-height 0.2s ease-out;
+
+}
+
 /*     <!-- ***** Row3  End ***** --> */
 
 
