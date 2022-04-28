@@ -1,8 +1,9 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 /* @font-face {
     font-family: "name";
     src: url("");
@@ -25,7 +26,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 5px;
-   
+
 }
 
 /*     <!-- ***** Start Clock ***** --> */
@@ -255,47 +256,55 @@ body {
     /* position: relative; */
     min-height: 500px;
 }
-#po-tp{
+
+#po-tp {
     top: 60px;
 }
+
 /* responsive problem */
-    @media screen and (max-width:768px)  {
-   
-    #po-tp{
+@media screen and (max-width:768px) {
+
+    #po-tp {
         top: 0px;
     }
 }
-@media screen and (min-width:992px)  {
-   
+
+@media screen and (min-width:992px) {
+
     .body {
         overflow: hidden;
     }
 }
+
 /*     <!-- ***** Row2  End ***** --> */
 
 /*     <!-- ***** Row3  Start ***** --> */
-.section3{
+.section3 {
     /* height: 400px; */
     padding: 20px;
 }
-.accordion{
+
+.accordion {
     background-color: #eee;
-    color:#444;
+    color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border:none;
+    border: none;
     text-align: left;
     outline: none;
     font-weight: bold;
     font-size: 16px;
 
 }
-.active , .accordion:hover{
+
+.active, .accordion:hover {
     background-color: #ccc;
 }
-.accordion:after{
-    content: "\00276F";/*  sign :  >  */
+
+.accordion:after {
+    content: "\00276F";
+    /*  sign :  >  */
     transform: rotate(90deg);
     color: #777;
     font-weight: bold;
@@ -305,16 +314,19 @@ body {
 
 }
 
-.active:after{
-    content: "\00276F";/*  sign :  >  */
+.active:after {
+    content: "\00276F";
+    /*  sign :  >  */
     transform: rotate(270deg);
 
 }
-.panel{
+
+.panel {
     padding: 0 18px;
     background-color: #aaa;
-    max-height: 0;/* dont need height an begin */
-    overflow: hidden; 
+    max-height: 0;
+    /* dont need height an begin */
+    overflow: hidden;
     transition: max-height 0.2s ease-out;
 
 }
@@ -399,9 +411,10 @@ form button {
     justify-content: center;
     align-items: center;
 }
-.social-icon  li{
+
+.social-icon li {
     padding: 4px 10px 10px;
-   list-style-type: none;
+    list-style-type: none;
 }
 
 /*     <!-- *****  part3 footer4 End ***** */
