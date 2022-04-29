@@ -176,12 +176,14 @@ menuBtn.addEventListener("click", () => {
   menuBtn.classList.toggle("open");
   sidebar.classList.toggle("show");
 });
+// btn sideBar hidden, if show btn goToTop 
 /* <!-- ***** sideBar End ***** --> */
 
 /* <!-- ***** button goToUp Start ***** --> */
-//Get the button
-var mybutton = document.querySelector(".gotop");
-mybutton.addEventListener("click", topFunction); //Functioned without the topFunction ?????
+//Get the button 
+var gotopBtn = document.querySelector(".gotop");
+var btn_Sidebar = document.querySelector(".btnSidebar");
+gotopBtn.addEventListener("click", topFunction); //Functioned without the topFunction ?????
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.addEventListener("scroll", scrollFunction);
@@ -193,9 +195,12 @@ function scrollFunction() {
     document.body.scrollTop > 500 ||
     document.documentElement.scrollTop > 500
   ) {
-    mybutton.style.display = "block";
+    gotopBtn.style.display = "block";
+    btn_Sidebar.style.display="none"; //sideBar hidden
   } else {
-    mybutton.style.display = "none";
+    gotopBtn.style.display = "none";
+    btn_Sidebar.style.display="block";
+
   }
 }
 
