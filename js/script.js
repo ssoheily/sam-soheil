@@ -107,7 +107,7 @@ iziToast.show({
   title: "Hey",
   message: "What can i for you ?",
   theme: "dark", //light
-  position: "bottomRight",
+  position: "bottomLeft",
 
   timeout: 1000,
   image: "./images/3x4foto.png",
@@ -173,8 +173,35 @@ const menuBtn = $.querySelector(".ctrlbtn");
 const sidebar = $.querySelector(".sidebar");
 menuBtn.addEventListener("click", () => {
   /* last css is always as default (between open and close in style.css) */
-    menuBtn.classList.toggle("open");
-    sidebar.classList.toggle("show")
-
+  menuBtn.classList.toggle("open");
+  sidebar.classList.toggle("show");
 });
 /* <!-- ***** sideBar End ***** --> */
+
+/* <!-- ***** button goToUp Start ***** --> */
+//Get the button
+var mybutton = document.querySelector(".gotop");
+mybutton.addEventListener("click", topFunction); //Functioned without the topFunction ?????
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.addEventListener("scroll", scrollFunction);
+window.addEventListener("load", scrollFunction);
+
+function scrollFunction() {
+  //   Document.documentElement returns the   Element that is the root element  ex: <html>
+  if (
+    document.body.scrollTop > 500 ||
+    document.documentElement.scrollTop > 500
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+/* <!-- ***** button goToUp End ***** --> */
