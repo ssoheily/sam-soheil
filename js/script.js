@@ -167,3 +167,14 @@ for (i = 0; i < acc.length; i++) {
 } //closing to the for loop.
 
 /* <!-- ***** secton3-Accorsion End ***** --> */
+
+/* <!-- ***** sideBar Start ***** --> */
+const menuBtn = $.querySelector(".ctrlbtn");
+const sidebar = $.querySelector(".sidebar");
+menuBtn.addEventListener("click", () => {
+  /* last css is always as default (between open and close in style.css) */
+    menuBtn.classList.toggle("open");
+    sidebar.classList.toggle("show")
+
+});
+/* <!-- ***** sideBar End ***** --> */

@@ -150,6 +150,81 @@ body {
 
 /*     <!-- ***** end switch ***** --> */
 
+/*     <!-- ***** SideBar  Start ***** --> */
+
+.sidebar {
+    width: 0;
+    /* height: 100vh; */
+    background-color: #222;
+    position: fixed;
+    top: 250px;
+    left: 0;
+    z-index: 2;
+    /* transition: width 0.5s; */
+    transition: all 0.5s;
+    opacity: 0.6;
+
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: #999;
+    width: 100%;
+}
+
+.btnSidebar {
+    padding: 35px;
+    font-size: 40px;
+    font-weight: 300px;
+    margin: 20px;
+    border: 0;
+    /* delete round background */
+    background-color: transparent;
+    cursor: pointer;
+    position: fixed;
+    z-index: 3;
+}
+
+.ctrlbtn {
+    width: 20px;
+    margin-top: 15px;
+    color: #250029;
+}
+
+.close:after {
+    content: "\002716 ";
+}
+
+.open:after {
+    content: "\002630 ";
+}
+
+.show {
+    /* width: 200px; */
+    display: none;
+}
+/* icons in sidebar */
+.icon-bar {
+    width: 90px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+  }
+  
+  .icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+
+/*     <!-- ***** SideBar  End ***** --> */
+
 
 /*     <!-- ***** start header ***** --> */
 .header {
@@ -464,3 +539,4 @@ form button {
 .p-bot30 {
     padding-bottom: 30PX;
 }
+
