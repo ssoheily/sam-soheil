@@ -210,3 +210,10 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 /* <!-- ***** button goToUp End ***** --> */
+
+/* <!-- ***** click box-shadow2 Start ***** --> */
+
+/* <!-- ***** click box-shadow2 End ***** --> */
+
+
+
