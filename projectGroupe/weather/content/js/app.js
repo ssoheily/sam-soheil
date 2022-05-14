@@ -6,6 +6,7 @@ let dateElem = $.querySelector(".date");
 let tempElem = $.querySelector(".temp");
 let weatherElem = $.querySelector(".weather");
 let hi_lowElem = $.querySelector(".hi-low");
+let Get_Device_Location = $.querySelector(".Get_Device_Location");
 inputElem.addEventListener("keypress", (e) => {
   if (e.keyCode === 13) {
     fetchData();
@@ -65,3 +66,7 @@ function showDate() {
   let date = now.getDate();
   return `  ${day} ${date} ${month} ${year} `;
 }
+
+Get_Device_Location.addEventListener("click",()=>{
+    showData(data);
+})
