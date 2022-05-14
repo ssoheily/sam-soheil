@@ -249,7 +249,8 @@ body {
     background-size: cover;
     color: #fff;
 }
-#clip-path{
+
+#clip-path {
     clip-path: polygon(0 0, 100% 0, 90% 100%, 10% 100%);
 }
 
@@ -332,9 +333,10 @@ body {
     border-radius: 8px;
 
 }
+
 .box-fea a {
     text-decoration: none;
-     color:black
+    color: black
 }
 
 /*     <!-- ***** Row1  Start ***** --> */
@@ -348,38 +350,42 @@ body {
 .box-pos {
     position: relative;
     min-height: 500px;
-    overflow-x: hidden; /* fix problem( width scroll)  from data-aos */
+    overflow-x: hidden;
+    /* fix problem( width scroll)  from data-aos */
 }
 
 #po-tp {
     top: 60px;
-} 
+}
 
 /* responsive problem (not eable 576) */
 @media screen and (max-width:568px) {
 
-    .brightness-box{
+    .brightness-box {
         display: none;
     }
 
-.menu-list {
-    font-size: 13px;
+    .menu-list {
+        font-size: 13px;
+    }
+
+    .ctrlbtn {
+        width: 10px;
+        color: #dc87e5;
+    }
+
+    .btnSidebar {
+        margin: 0px;
+    }
 }
 
-.ctrlbtn {
-    width: 10px;
-    color: #dc87e5;
-}
-.btnSidebar{
-    margin: 0px;
-}
-}
 @media screen and (max-width:768px) {
 
     #po-tp {
         top: 0px;
     }
-    #clip-path{
+
+    #clip-path {
         clip-path: polygon(20% 0%, 80% 0%, 100% 14%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0 15%);
     }
 
@@ -390,10 +396,11 @@ body {
     .body {
         overflow: hidden;
     }
-    .clip-path{
+
+    .clip-path {
         clip-path: "";
     }
-   
+
 }
 
 /*     <!-- ***** Row2  End ***** --> */
@@ -514,16 +521,18 @@ form button {
     height: 110px;
 }
 
-.part2 .contact a:hover{
+.part2 .contact a:hover {
     text-decoration: none;
     color: #000;
     font-weight: 700;
     cursor: pointer;
-  }
-a{
-    text-decoration: none;
-    color:#fff;
 }
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /*     <!-- ***** footer part3 ***** */
 .copyright-text {
     height: 100%;

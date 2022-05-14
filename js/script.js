@@ -176,11 +176,11 @@ menuBtn.addEventListener("click", () => {
   menuBtn.classList.toggle("open");
   sidebar.classList.toggle("show");
 });
-// btn sideBar hidden, if show btn goToTop 
+// btn sideBar hidden, if show btn goToTop
 /* <!-- ***** sideBar End ***** --> */
 
 /* <!-- ***** button goToUp Start ***** --> */
-//Get the button 
+//Get the button
 var gotopBtn = document.querySelector(".gotop");
 var btn_Sidebar = document.querySelector(".btnSidebar");
 gotopBtn.addEventListener("click", topFunction); //Functioned without the topFunction ?????
@@ -196,11 +196,10 @@ function scrollFunction() {
     document.documentElement.scrollTop > 500
   ) {
     gotopBtn.style.display = "block";
-    btn_Sidebar.style.display="none"; //sideBar hidden
+    btn_Sidebar.style.display = "none"; //sideBar hidden
   } else {
     gotopBtn.style.display = "none";
-    btn_Sidebar.style.display="block";
-
+    btn_Sidebar.style.display = "block";
   }
 }
 
@@ -214,6 +213,3 @@ function topFunction() {
 /* <!-- ***** click box-shadow2 Start ***** --> */
 
 /* <!-- ***** click box-shadow2 End ***** --> */
-
-
-
