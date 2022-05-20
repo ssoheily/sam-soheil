@@ -269,11 +269,12 @@ body {
     list-style: none;
 }
 
-.menu-list li {
+.menu-list li a{
     padding: 10px 10px;
+    text-decoration: none;
 }
 
-.menu-list li:hover {
+.menu-list li a:hover {
     color: #000;
     font-weight: bold;
     cursor: pointer;
