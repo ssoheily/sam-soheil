@@ -340,13 +340,18 @@ body {
 }
 
 /*     <!-- ***** Row1  Start ***** --> */
-.section1 h1 {
+.section1 h1, .section1 P  {
     text-align: center;
 }
+
 
 /*     <!-- ***** Row1  End ***** --> */
 
 /*     <!-- ***** Row2  Start ***** --> */
+.section2  {
+    text-align: center;
+}
+
 .box-pos {
     position: relative;
     min-height: 500px;
@@ -603,6 +608,9 @@ a {
     padding: 18px 0;
 }
 
+.p-top10 {
+    padding-top: 10PX;
+}
 .p-top20 {
     padding-top: 20PX;
 }
