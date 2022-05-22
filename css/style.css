@@ -66,9 +66,34 @@ body {
 
 /*     <!-- ***** end Clock ***** --> */
 
-/*     <!-- ***** start RESOLOTION ***** --> */
+/*     <!-- ***** start  Logo Runlos   ***** --> */
+/* <!-- deactive resolotion part (Replace with logo <Runlos> ) --> */
 
-.resoltion {
+.containerLogo {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoRunlos {
+    width: 255px;
+    height: 60px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoRunlos img{
+    width: 200px;
+    height: 80px;    
+}
+/*     <!-- ***** end  Logo Runlos   ***** --> */
+
+/*     <!-- ***** start   RESOLOTION  ***** --> */
+
+/* <!-- deactive resolotion part (Replace with logo <Runlos> ) --> */
+/* .resoltion {
     min-height: 10vh;
     display: flex;
     align-items: center;
@@ -84,9 +109,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.brightness-box i {
+} */
+/* .brightness-box i {
     margin: 0 5px;
 }
 
@@ -100,9 +124,9 @@ body {
     -webkit-appearance: none;
     background: #0a85ff;
     outline: none;
-}
+} */
 
-/*     <!-- ***** end   RESOLOTION ***** --> */
+/*     <!-- ***** end   RESOLOTION  ***** --> */
 
 /*     <!-- ***** start switch ***** --> */
 .switch {

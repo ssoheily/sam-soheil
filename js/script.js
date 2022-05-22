@@ -44,21 +44,22 @@ setInterval(function () {
 
 /* <!-- ***** Clock End ***** --> */
 
+/* deaktive part Resoltion andreplace with LOGO Runlos */
 /* <!-- ***** Resolotion Start ***** --> */
-let container = $.querySelector(".resoltionHEAD");
-let inputRange = $.querySelector("#range");
+// let container = $.querySelector(".resoltionHEAD");
+// let inputRange = $.querySelector("#range");
 
-function rangeChanger(event) {
-  let number = event.target.value;
-  container.style.filter = `brightness(${number}%)`;
-}
-/* CHANGE KEY */
-inputRange.addEventListener("change", rangeChanger);
-/* reset value input-rang */
-window.addEventListener("load", () => {
-  let rangInput = $.querySelector(".rang");
-  rangInput.value = 100;
-});
+// function rangeChanger(event) {
+//   let number = event.target.value;
+//   container.style.filter = `brightness(${number}%)`;
+// }
+// /* CHANGE KEY */
+// inputRange.addEventListener("change", rangeChanger);
+// /* reset value input-rang */
+// window.addEventListener("load", () => {
+//   let rangInput = $.querySelector(".rang");
+//   rangInput.value = 100;
+// });
 /* <!-- ***** Resolotion End ***** --> */
 
 /* <!-- ***** Switch Start ***** --> */
