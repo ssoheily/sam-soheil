@@ -214,3 +214,24 @@ function topFunction() {
 /* <!-- ***** click box-shadow2 Start ***** --> */
 
 /* <!-- ***** click box-shadow2 End ***** --> */
+
+
+/*         <!-- ***** Row4 Start(section4) ***** --> */
+let  button_wrapper = $.querySelectorAll(".buttonWrapper4");
+let  tab_buttons = $.querySelectorAll(".tab-button");
+let  countens = $.querySelectorAll(".content4");
+
+/* bubblings */
+button_wrapper.forEach(tab_button => tab_button.addEventListener("click",(e)=>{
+    /* cahange style button */
+    tab_buttons.forEach(tab_button => tab_button.classList.remove("active4"))
+    e.target.classList.add("active4");
+    /* cahange style p-tags */
+    const mainCountentId= e.target.dataset.id;
+    const mainCounten= $.querySelector(`#${mainCountentId}`)
+    countens.forEach(content => content.classList.remove("active4"))
+    mainCounten.classList.add("active4")
+ 
+}))
+
+/*         <!-- ***** Row4 End(section4) ***** --> */

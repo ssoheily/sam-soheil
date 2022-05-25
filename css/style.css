@@ -491,6 +491,71 @@ body {
 
 /*     <!-- ***** Row3  End ***** --> */
 
+/*     <!-- ***** Row4  Start ***** --> */
+
+.section4{
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    line-height:1.5 ;
+}
+.section4 h1 {
+    font-size: 30px;
+    color: #232c3d;
+    /* color: #fff; */
+  }
+  
+  .section4 .wrapper4 {
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .1);
+  }
+  
+  .section4 .buttonWrapper4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .section4 button {
+    letter-spacing: 3px;
+    border: none;
+    padding: 10px;
+    background-color: #bccbe9;
+    color: #232c3d;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .section4 button:hover {
+    background-color: #d5e3ff;
+  }
+  
+  .section4 button.active4 {
+    background-color: white;
+  }
+  
+  .section4 .active4 {
+    background-color: white;
+  }
+  
+  .section4 p {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .section4 .content4 {
+    display: none;
+    padding: 10px 20px;
+  }
+  
+  .section4 .content4.active4 {
+    display: block;
+  }
+
+/*     <!-- ***** Row4  End ***** --> */
+
 
 /*     <!-- ***** footer  Start***** --> */
 /*     <!-- ***** footer part1 ***** --> */
